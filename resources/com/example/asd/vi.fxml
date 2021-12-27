@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1195.0" style="-fx-background-color: fafafa;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asd.Controller">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="-2.0" prefHeight="97.0" prefWidth="1202.0" style="-fx-background-color: #333;">
+         <children>
+            <Label layoutX="66.0" layoutY="21.0" prefHeight="21.0" prefWidth="1070.0" text="Программа расчета баллов по нормативам НФП" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Georgia" size="47.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="fi1" layoutX="344.0" layoutY="142.0" prefHeight="67.0" prefWidth="508.0" promptText="Введите ваше ФИО">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="but1" layoutX="545.0" layoutY="236.0" mnemonicParsing="false" text="Продолжить" />
+   </children>
+</AnchorPane>
